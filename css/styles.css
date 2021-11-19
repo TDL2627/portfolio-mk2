@@ -8,24 +8,74 @@
     left: 0;
     height: 100%;
     background-color: black;
-    z-index: 29;
+    z-index: 27;
 }
 body{
     background-color: black !important;
     background: black !important;
 }
-.radio{
-    z-index: 272727 !important;
+ .slide-radio1{
+    z-index: 31 !important;
     display: initial !important;
-}
-
+    position: fixed;
+    top: 50px;
+    background-color: red;
+} 
+.slide-radio2{
+    z-index: 31 !important;
+    display: initial !important;
+    position: fixed;
+    top: 180px;
+    left: 20px;
+    background-color: red;
+} 
+.slide-radio3{
+    z-index: 31 !important;
+    display: initial !important;
+    position: fixed;
+    top: 315px;
+    left: 40px;
+    background-color: red;
+} 
+.slide-radio4{
+    z-index: 31 !important;
+    display: initial !important;
+    position: fixed;
+    top: 440px;
+    left: 60px;
+    background-color: red;
+} 
+.slide-radio5{
+    z-index: 31 !important;
+    display: initial !important;
+    position: fixed;
+    top: 570px;
+    left: 80px;
+    background-color: red;
+} 
+.slide-radio6{
+    z-index: 31 !important;
+    display: initial !important;
+    position: fixed;
+    top: 700px;
+    left: 100px;
+    background-color: red;
+} 
+.slide-radio7{
+    z-index: 31 !important;
+    display: initial !important;
+    position: fixed;
+    top: 850px;
+    left: 120px;
+    background-color: red;
+} 
 .navi{
     display:inline;
 }
 /* Slider wrapper*/
   .css-slider-wrapper {
       display: block;
-      background: black;
+      background: white;
       overflow: hidden;
       position: absolute;
       left: 0;
@@ -35,8 +85,7 @@ body{
   }
   /* Slider */
   .slider {
-      margin-left: 350px;
-      width: 1500px !important;
+      width: 81.5vw !important;
       height: 100%;
       background: red;
       position: absolute;
@@ -65,30 +114,33 @@ body{
   .slide1 {
     background-color: rgb(102, 102, 102); 
       left: 0;
+      margin-left: 350px;
   }
   .slide2 {
     background-color: rgb(53, 52, 52);
-      left: 100%
+      left: 100%;
+     
+      
   }
   .slide3 {
     background-color: rgb(102, 102, 102); 
-      left: 200%
+      left: 181%
   }
   .slide4 {
     background-color: rgb(53, 52, 52);
-      left: 300%;
+      left: 262.5%;
   }
   .slide5 {
     background-color: rgb(102, 102, 102); 
-    left: 400%
+    left: 344%
 }
 .slide6 {
     background-color: rgb(53, 52, 52);
-    left: 500%
+    left: 425.5%
 }
 .slide7 {
     background-color: rgb(102, 102, 102); 
-    left: 600%;
+    left: 507%;
 }
   .slider > div {
     text-align: center;
@@ -129,10 +181,10 @@ body{
       width: 50px;
       height: 50px;
       margin-top: -25px;
-      z-index: 523234235;
+      z-index: 30;
   }
   .control label {
-      z-index: 2929929;
+      z-index:30;
       display: none;
       text-align: center;
       line-height: 50px;
@@ -162,6 +214,7 @@ body{
   }
   .slider-pagination label {
       width: 20px;
+      z-index: 35;
       /* padding-right: 150px; */
       padding: 30px;
       height: 20px;
@@ -172,8 +225,6 @@ body{
       border-radius: 50%;
       display: inline-block;
       top: 0 !important;
-      background: rgba(255,255,255,0.2);
-      border: solid 1px rgba(255,255,255,0.4);
       cursor: pointer;
       }
       
@@ -210,28 +261,28 @@ body{
       transform: translateX(0%);
   }
   .slide-radio2:checked ~ .slider {
-      -webkit-transform: translateX(-123.3%);
-      transform: translateX(-123.3%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
   }
   .slide-radio3:checked ~ .slider {
-      -webkit-transform: translateX(-246.5%);
-      transform: translateX(-246.5%);
+      -webkit-transform: translateX(-199%);
+      transform: translateX(-199%);
   }
   .slide-radio4:checked ~ .slider {
-      -webkit-transform: translateX(-369.7%);
-      transform: translateX(-369.7%);
+      -webkit-transform: translateX(-299%);
+      transform: translateX(-299%);
   }
   .slide-radio5:checked ~ .slider {
-    -webkit-transform: translateX(-492.9%);
-    transform: translateX(-492.9%);
+    -webkit-transform: translateX(-399%);
+    transform: translateX(-399%);
 }
 .slide-radio6:checked ~ .slider {
-    -webkit-transform: translateX(-616%);
-    transform: translateX(-616%);
+    -webkit-transform: translateX(-499%);
+    transform: translateX(-499%);
 }
 .slide-radio7:checked ~ .slider {
-    -webkit-transform: translateX(-600%);
-    transform: translateX(-739.2%);
+    -webkit-transform: translateX(-599%);
+    transform: translateX(-599%);
 }
   
   .slide-radio1:checked ~ .slide1 h2, 
